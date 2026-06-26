@@ -2,7 +2,7 @@
     const FONTS = [
         "Ormin",
         "Doolittle Garamond",
-        "Doolittle Garamond - Italic",
+        "Doolittle Garamond Italic",
     ] as const
 
     const TEXT = `𐑑𐑴 𐑣𐑨𐑥𐑪𐑯𐑦 𐑒𐑧 𐑛𐑧𐑤𐑨𐑥 𐑤𐑨𐑒 𐑟𐑨𐑛𐑧 𐑤𐑨𐑚𐑔𐑨𐑯𐑛𐑨𐑖 𐑮𐑪

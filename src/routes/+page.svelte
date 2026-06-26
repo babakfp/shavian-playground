@@ -14,22 +14,46 @@
     let currentFont = $state("Ormin")
 </script>
 
-<label class="container py-4 block">
+<div class="container max-w-prose py-4">
     <select
         bind:value={currentFont}
-        class="border h-12 w-full border-gray-800 px-4 appearance-none"
+        class="border h-12 w-full border-gray-800 px-4 appearance-none flex items-center"
     >
         {#each FONTS as font}
-            <option value={font}>
+            <option
+                value={font}
+                class="bg-background text-foreground flex gap-4 px-4 py-2 border-gray-800 not-last:border-b-0 hover:bg-gray-900 border"
+            >
                 {font}
             </option>
         {/each}
     </select>
+</div>
+
+<hr class="border-gray-900" />
+
+<label>
+    <div class="container px-0 max-w-prose">
+        <textarea
+            class="field-sizing-content w-full resize-none p-4 text-xl h-[calc(100vh-(var(--spacing)*12)-(var(--spacing)*4))]"
+            value={DEFAULT_CONTENT}
+            style:font-family={currentFont}></textarea>
+    </div>
 </label>
 
-<main class="container px-0">
-    <textarea
-        class="field-sizing-content w-full resize-none border-t border-gray-900 p-4 text-xl h-[calc(100vh-(var(--spacing)*12)-(var(--spacing)*4))]"
-        value={DEFAULT_CONTENT}
-        style:font-family={currentFont}></textarea>
-</main>
+<style>
+    select,
+    ::picker(select) {
+        appearance: base-select;
+    }
+    select::picker-icon {
+        content: "🔻";
+        filter: grayscale(1);
+    }
+    ::picker(select) {
+        border: none;
+    }
+    ::picker(select) {
+        top: calc(anchor(bottom) - 1px);
+    }
+</style>

@@ -14,7 +14,7 @@
 <label class="container py-4 block">
     <select
         bind:value={currentFont}
-        class="border h-12 w-full border-gray-50 px-4 appearance-none"
+        class="border h-12 w-full border-gray-800 px-4 appearance-none"
     >
         {#each FONTS as font}
             <option value={font}>

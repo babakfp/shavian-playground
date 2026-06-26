@@ -26,7 +26,7 @@
 
 <main class="container px-0">
     <textarea
-        class="field-sizing-content w-full resize-none p-4 text-xl h-[calc(100vh-(var(--spacing)*12)-(var(--spacing)*4))]"
+        class="field-sizing-content w-full resize-none border-t border-gray-900 p-4 text-xl h-[calc(100vh-(var(--spacing)*12)-(var(--spacing)*4))]"
         value={TEXT}
         style:font-family={currentFont}></textarea>
 </main>

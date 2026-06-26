@@ -64,6 +64,34 @@
             href="/fonts/DoolittleGaramond-Italic.otf"
             crossorigin="anonymous"
         />
+        <link
+            rel="preload"
+            as="font"
+            type="font/ttf"
+            href="/fonts/Everson Mono.ttf"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="preload"
+            as="font"
+            type="font/ttf"
+            href="/fonts/Everson Mono Bold.ttf"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="preload"
+            as="font"
+            type="font/ttf"
+            href="/fonts/Everson Mono Oblique.ttf"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="preload"
+            as="font"
+            type="font/ttf"
+            href="/fonts/Everson Mono Bold Oblique.ttf"
+            crossorigin="anonymous"
+        />
         <style>
             @font-face {
                 font-family: "Ormin";
@@ -84,6 +112,35 @@
                 font-display: block;
                 src: url("/fonts/DoolittleGaramond-Italic.otf")
                     format("opentype");
+            }
+            @font-face {
+                font-family: "Everson Mono";
+                font-style: normal;
+                font-display: block;
+                font-weight: 400;
+                src: url("/fonts/Everson Mono.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "Everson Mono";
+                font-style: normal;
+                font-display: block;
+                font-weight: 600;
+                src: url("/fonts/Everson Mono Bold.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "Everson Mono Oblique";
+                font-style: italic;
+                font-display: block;
+                font-weight: 400;
+                src: url("/fonts/Everson Mono Oblique.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "Everson Mono Oblique";
+                font-style: italic;
+                font-display: block;
+                font-weight: 600;
+                src: url("/fonts/Everson Mono Bold Oblique.ttf")
+                    format("truetype");
             }
         </style>
         %sveltekit.head%

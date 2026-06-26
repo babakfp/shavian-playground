@@ -3,6 +3,8 @@
         "Ormin",
         "Doolittle Garamond",
         "Doolittle Garamond Italic",
+        "Everson Mono",
+        "Everson Mono Oblique",
     ] as const
 
     const DEFAULT_CONTENT = `𐑑𐑴 𐑣𐑨𐑥𐑪𐑯𐑦 𐑒𐑧 𐑛𐑧𐑤𐑨𐑥 𐑤𐑨𐑒 𐑟𐑨𐑛𐑧 𐑤𐑨𐑚𐑔𐑨𐑯𐑛𐑨𐑖 𐑮𐑪

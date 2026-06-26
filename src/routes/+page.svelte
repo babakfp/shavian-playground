@@ -35,7 +35,7 @@
 <label>
     <div class="container px-0 max-w-prose">
         <textarea
-            class="field-sizing-content w-full resize-none p-4 text-xl h-[calc(100vh-(var(--spacing)*12)-(var(--spacing)*4))]"
+            class="field-sizing-content w-full resize-none p-4 text-2xl h-[calc(100vh-(var(--spacing)*12)-(var(--spacing)*4))]"
             value={DEFAULT_CONTENT}
             style:font-family={currentFont}></textarea>
     </div>

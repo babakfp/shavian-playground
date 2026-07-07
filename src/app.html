@@ -46,6 +46,13 @@
         <link
             rel="preload"
             as="font"
+            type="font/woff2"
+            href="/fonts/InterAlia[wght].woff2"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="preload"
+            as="font"
             type="font/otf"
             href="/fonts/Ormin-Regular.otf"
             crossorigin="anonymous"
@@ -93,6 +100,14 @@
             crossorigin="anonymous"
         />
         <style>
+            @font-face {
+                font-family: "InterAlia Variable";
+                font-style: normal;
+                font-display: block;
+                font-weight: 100 900;
+                /* prettier-ignore */
+                src: url("/fonts/InterAlia[wght].woff2") format("woff2-variations");
+            }
             @font-face {
                 font-family: "Ormin";
                 font-style: normal;

@@ -1,5 +1,6 @@
 <script lang="ts">
     const FONTS = [
+        "InterAlia Variable",
         "Ormin",
         "Doolittle Garamond",
         "Doolittle Garamond Italic",

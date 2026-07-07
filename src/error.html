@@ -5,44 +5,123 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>%sveltekit.status%</title>
         <link rel="icon" href="/favicon.png" />
+
         <link
             rel="preload"
             as="font"
             type="font/woff2"
-            href="/fonts/jost-latin-wght-normal.woff2"
+            href="/fonts/InterAlia[wght].woff2"
             crossorigin="anonymous"
         />
         <link
             rel="preload"
             as="font"
-            type="font/woff2"
-            href="/fonts/jetbrains-mono-latin-wght-normal.woff2"
+            type="font/otf"
+            href="/fonts/Ormin-Regular.otf"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="preload"
+            as="font"
+            type="font/otf"
+            href="/fonts/DoolittleGaramond-Regular.otf"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="preload"
+            as="font"
+            type="font/otf"
+            href="/fonts/DoolittleGaramond-Italic.otf"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="preload"
+            as="font"
+            type="font/ttf"
+            href="/fonts/Everson Mono.ttf"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="preload"
+            as="font"
+            type="font/ttf"
+            href="/fonts/Everson Mono Bold.ttf"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="preload"
+            as="font"
+            type="font/ttf"
+            href="/fonts/Everson Mono Oblique.ttf"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="preload"
+            as="font"
+            type="font/ttf"
+            href="/fonts/Everson Mono Bold Oblique.ttf"
             crossorigin="anonymous"
         />
         <style>
-            /* jost-latin-wght-normal */
             @font-face {
-                font-family: "Jost Variable";
+                font-family: "InterAlia Variable";
                 font-style: normal;
                 font-display: block;
                 font-weight: 100 900;
                 /* prettier-ignore */
-                src: url("/fonts/jost-latin-wght-normal.woff2") format("woff2-variations");
-                /* prettier-ignore */
-                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+                src: url("/fonts/InterAlia[wght].woff2") format("woff2-variations");
             }
-            /* jetbrains-mono-latin-wght-normal */
             @font-face {
-                font-family: "JetBrains Mono Variable";
+                font-family: "Ormin";
                 font-style: normal;
                 font-display: block;
-                font-weight: 100 800;
-                /* prettier-ignore */
-                src: url("/fonts/jetbrains-mono-latin-wght-normal.woff2") format("woff2-variations");
-                /* prettier-ignore */
-                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+                src: url("/fonts/Ormin-Regular.otf") format("opentype");
+            }
+            @font-face {
+                font-family: "Doolittle Garamond";
+                font-style: normal;
+                font-display: block;
+                src: url("/fonts/DoolittleGaramond-Regular.otf")
+                    format("opentype");
+            }
+            @font-face {
+                font-family: "Doolittle Garamond Italic";
+                font-style: italic;
+                font-display: block;
+                src: url("/fonts/DoolittleGaramond-Italic.otf")
+                    format("opentype");
+            }
+            @font-face {
+                font-family: "Everson Mono";
+                font-style: normal;
+                font-display: block;
+                font-weight: 400;
+                src: url("/fonts/Everson Mono.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "Everson Mono";
+                font-style: normal;
+                font-display: block;
+                font-weight: 600;
+                src: url("/fonts/Everson Mono Bold.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "Everson Mono Oblique";
+                font-style: italic;
+                font-display: block;
+                font-weight: 400;
+                src: url("/fonts/Everson Mono Oblique.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "Everson Mono Oblique";
+                font-style: italic;
+                font-display: block;
+                font-weight: 600;
+                src: url("/fonts/Everson Mono Bold Oblique.ttf")
+                    format("truetype");
             }
         </style>
+
         <link rel="stylesheet" href="/error.css" />
     </head>
     <body class="bg-background text-foreground">

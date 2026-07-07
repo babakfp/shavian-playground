@@ -27,9 +27,8 @@
     --radius-lg: initial;
     --radius: 0.5rem; /* --radius-lg */
 
-    --font-sans: "Jost Variable";
-    --font-mono: "JetBrains Mono Variable";
-    --font-mono--font-variation-settings: "MONO" 1;
+    --font-sans: "InterAlia Variable";
+    --font-mono: "Everson Mono";
 }
 
 @utility container {
